@@ -27,5 +27,5 @@ cTemp = convertToCelsius(fTemp)
 tempDescrip = describeTemperature(fTemp);
 
 alert(`${fTemp} degrees Fahrenheit is ${tempDescrip}.  
-${fTemp} converted, is ${Math.round(cTemp)} degrees Celsius.`);
+${fTemp} is ${Math.round(cTemp)} degrees Celsius.`);
 
