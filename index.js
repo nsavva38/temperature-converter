@@ -10,10 +10,10 @@ const describeTemperature = (temp) => {
   else if (temp < 64) {
     return `cold`;
   }
-  else if ( temp < 86) {
+  else if (temp < 86) {
     return `warm`;
   }
-  else if ( temp < 100) {
+  else if (temp < 100) {
     return `hot`;
   }
   else {
