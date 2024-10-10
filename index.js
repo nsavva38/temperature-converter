@@ -22,7 +22,7 @@ const describeTemperature = (temp) => {
   
 }
 
-fTemp = Number(prompt(`Give me Fahrenheit and I give you Celsius: `));
+fTemp = Number(prompt(`Give me Fahrenheit and I'll give you Celsius: `));
 cTemp = convertToCelsius(fTemp)
 tempDescrip = describeTemperature(fTemp);
 
