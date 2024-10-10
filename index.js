@@ -16,7 +16,7 @@ const describeTemperature = (temp) => {
   else if ( temp < 100) {
     return `hot`;
   }
-  else if ( temp >= 100) {
+  else {
     return `very hot`;
   }
   
