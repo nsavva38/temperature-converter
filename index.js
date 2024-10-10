@@ -1,6 +1,6 @@
 
 const convertToCelsius = (temp) => {
-  return (temp - 32) * (5/9)
+  return Math.round((temp - 32) * (5/9));S
 }
 
 const describeTemperature = (temp) => {
@@ -27,5 +27,5 @@ cTemp = convertToCelsius(fTemp)
 tempDescrip = describeTemperature(fTemp);
 
 alert(`${fTemp} degrees Fahrenheit is ${tempDescrip}.  
-${fTemp} is ${Math.round(cTemp)} degrees Celsius.`);
+${fTemp} is ${cTemp} degrees Celsius.`);
 
