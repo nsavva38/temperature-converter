@@ -27,5 +27,5 @@ cTemp = convertToCelsius(fTemp)
 tempDescrip = describeTemperature(fTemp);
 
 alert(`${fTemp} degrees Fahrenheit is ${tempDescrip}.  
-${fTemp} is ${cTemp} degrees Celsius.`);
+${fTemp} is ${cTemp} degrees Celsius when rounded to the nearest integer.`);
 
