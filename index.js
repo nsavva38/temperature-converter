@@ -1,6 +1,6 @@
 
 const convertToCelsius = (temp) => {
-  return Math.round((temp - 32) * (5/9));S
+  return Math.round((temp - 32) * (5/9));
 }
 
 const describeTemperature = (temp) => {
